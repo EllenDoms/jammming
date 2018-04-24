@@ -1,6 +1,5 @@
 const clientID = '2cb3897b37c441bf99d8b254e163757c';
-const redirect_uri = 'http://localhost:3000/callback';
-const clientSecret = 'd9979f426ad04dfcb4f94ff596295e90';
+const redirect_uri = 'https://ellendoms.com/projects/jammming/'; // http://localhost:3000/
 const scopes = 'user-read-private user-read-email playlist-read-private playlist-modify-private playlist-modify-public';
 let accessToken = getParameterByName('access_token');
 let expiration = getParameterByName('expires_in');
