@@ -1,0 +1,34 @@
+.Song {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(256, 256, 256, 0.8);
+}
+
+.Song-action {
+  cursor: pointer;
+  padding: .5rem;
+  font-size: 1.05rem;
+  transition: color .25s;
+}
+
+.Song-action:hover {
+  color: rgba(265, 265, 265, .5);
+}
+
+.Song-information {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 72px;
+}
+
+.Song-information h3 {
+  margin-bottom: .22rem;
+}
+
+.Song-information p {
+  font-size: .83rem;
+  font-weight: 300;
+  color: rgba(256, 256, 256, 0.8);
+}
